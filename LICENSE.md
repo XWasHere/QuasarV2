@@ -21,7 +21,7 @@ compatible with the AGPL is a violation of these terms). This does not include t
 for Minecraft, which is excluded from the license under the aforementioned linking exception.
 
 The easiest way to comply with this is to host your changes to Quasar on your forge of
-choice (codeberg, github/gitlab/etc) and to provide players with links to your repository, 
+choice (codeberg/github/gitlab/etc) and to provide players with links to your repository, 
 links to the repositories for any plugins that you use, and a link to the versions of paper
 and Minecraft that your server is running. Providing version info for all code your server
 is running can help players find the right version of the source code.
