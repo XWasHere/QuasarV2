@@ -7,7 +7,7 @@ Quasar's code is licensed under the GNU Affero General Public License Version 3.
 with exceptions allowing it to be run and distributed alongside Minecraft and other
 unrelated game modifications. Most resources are licensed under the Creative Commons
 licenses, although some exceptions apply. Licensing details can be viewed in the
-LICENSE.md file. Text for Quasar's licenses can be found in the licenses folder.
+`LICENSE.md` file. Text for Quasar's licenses can be found in the `LICENSES` folder.
 
 ## Project structure
 
