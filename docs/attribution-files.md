@@ -5,10 +5,10 @@ to ensure that all asset creators are correctly credited for their work, in
 compliance with each asset's individual license, as they often cannot be specified
 within the asset due to file format limitations.
 
-Each attribution.json file is an array of objects describing each file within the
+Each attribution file is an array of objects describing each file within the
 directory that the attribution file is contained in, for example, a directory with
-the following structure would have two attribution files, one with three entries for
-the top level directory, and one with one entry for the subdirectory.
+the following structure would have two attribution files: one with three entries for
+the top level directory and one with one entry for the `machine1` subdirectory.
 ```
 ./
 L attribution.json
@@ -20,8 +20,7 @@ L machine1/
   L machine_texture_1.png
 ```
 
-Each object in the top-level array follows the format shown below (a schema and
-workflow that can be used for validation is planned for the future):
+Each object in the top-level array follows the format shown below:
 ```typescript
 {
     // The name of the file being attributed.
