@@ -26,30 +26,30 @@ Each object in the top-level array follows the format shown below:
     // The name of the file being attributed.
     "file": string,
 
-    // The license of the asset. Preferrably a SPDX license identifier
+    // The license of the asset. Must be a valid SPDX license identifier.
     "license": string,
 
-    // All authors or editors of the asset
+    // All authors or editors of the asset.
     "authors": {    
-        // The author's name or alias
+        // The author's name or alias.
         "name": string,
 
-        // An optional comment explaining the author's relation to the asset
+        // An optional comment explaining the author's relation to the asset.
         "comment"?: string,
 
-        // An optional link to the author's profile or home page
+        // An optional link to the author's profile or home page.
         "link"?: string
     }[],
 
-    // All sources used to create the asset
+    // All sources used to create the asset.
     "sources": {
-        // A link to the source
+        // A link to the source.
         "link": string,
 
-        // The license the source is licensed under. Preferrably a SPDX license identifier.
+        // The license the source is licensed under. Must be a valid SPDX license identifier.
         "license": string,
 
-        // An optional comment explaining the source's relation to the asset
+        // An optional comment explaining the source's relation to the asset.
         "comment"?: string
     }[]
 }
