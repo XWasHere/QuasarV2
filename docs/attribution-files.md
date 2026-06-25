@@ -1,4 +1,4 @@
-# `attribution.json` file format
+# Attribution Files
 
 Attribution files are used to indicate the source of assets used in Quasar and
 to ensure that all asset creators are correctly credited for their work, in

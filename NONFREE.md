@@ -1,3 +1,3 @@
-# Non-free assets within Quasar.
+# Non-Free Assets Within Quasar.
 
 There are currently no non-free assets! Yay!
